@@ -21,7 +21,11 @@
     "lib": [
       "ES2022",
       "dom"
-    ]
+    ],
+    "types": [
+      "jest" // 1
+    ],
+    "emitDecoratorMetadata": true // 3
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
